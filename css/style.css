@@ -6,6 +6,11 @@
   padding: 0;
 }
 
+.container-fluid, .row{
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
 h1, h2, h3, h4, h5{
 font-family: 'Montserrat', sans-serif;
 font-weight: 900;

@@ -27,3 +27,44 @@ nav {
 }
 
 /*-----------------Time-----------------*/
+.tree {
+  border-top: 3px solid #c99444;
+  border-bottom: 3px solid #c99444;
+  background-image: url(../img/tree.jpg);
+  width: 100%;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  color: #eee;
+}
+
+.info {
+  margin: 20px;
+}
+
+.info p, .hotel p {
+  font-size: 30px;
+}
+
+.when h1 {
+  text-align: center;
+  font-size: 60px;
+  border-bottom: 2px solid #c99444;
+}
+
+
+
+/*------------------hotel--------------*/
+
+.hotel {
+  text-align: center;
+  height: 500px;
+}
+
+.hotelimg {
+  background-image: url(../img/hotel.jpg);
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+
+}
