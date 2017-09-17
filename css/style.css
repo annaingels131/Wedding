@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes|Montserrat:400,900');
+
+/*----------UNIVERSALS-------------*/
+*{
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5{
+font-family: 'Montserrat', sans-serif;
+font-weight: 900;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+.fancy {
+  font-family: 'Great Vibes', cursive;
+}
+
+.gold {
+  color: #c99444;
+}
+/*---------------HEADER-------------*/
+header{
+  background-image: url(../img/rings.jpg);
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+  background-size: cover;
+}
+
+
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+
+
+.logo a{
+  float: left;
+  font-size: 27px;
+  color: #eee;
+  transform: rotate(-20deg);
+  text-align: center;
+}
+
+.logo a:hover {
+  text-decoration: none;
+}
+
+.johan {
+  font-size: 60px;
+  margin: 20px;
+}
+
+.and {
+  margin: -67px 13px;
+  text-align: right;
+  font-size: 70px;
+}
+
+.katarina {
+  font-size: 60px;
+  margin: 15px;
+}
+
+nav li {
+  display: inline;
+  margin: 10px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+nav a {
+  text-decoration: none;
+  color: #c99444;
+}
+
+nav a:hover {
+  color: #c99444;
+}
+
+.links {
+  font-size: 15px;
+  float: right;
+  margin: 45px 40px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 100px;
+    z-index: 1;
+    margin: -18px 87px;}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    color: #c99444;
+    margin: -10px;
+
+}
+
+.dropdown:hover ~ .dropdown-content {
+    display: block;
+}
+
+.dropdown-content:hover {
+  display: block;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.rsvp {
+  border: 2px solid #c99444;
+  padding: 10px 15px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+.rsvp:hover {
+  background-color: #eee;
+}
+
+
+/*---------FOOTER----------------*/
+footer {
+  height: 100px;
+  width: 100%;
+  background-color: #c99444;
+}
