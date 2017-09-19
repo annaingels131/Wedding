@@ -1,0 +1,52 @@
+
+
+header {
+  background-image: url(../img/people.jpg);
+}
+
+.met {
+  font-size: 80px;
+  position: absolute;
+  bottom: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  color: rgba(215, 215, 215, 0.7);
+}
+
+.meet {
+  height: 500px;
+}
+
+.meet h1 {
+  border-bottom: 2px solid #c99444;
+}
+
+/*-------STORY------------------------*/
+
+.engage {
+  background-image: url(../img/bench.jpg);
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.knee {
+  background-image: url(../img/knee.jpg);
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.hands {
+  background-image: url(../img/hands.jpg);
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+
+@media only screen and (max-width: 658px) {
+  h1, .met {
+    font-size: 30px;
+  }
+}

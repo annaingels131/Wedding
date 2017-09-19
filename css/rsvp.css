@@ -1,0 +1,51 @@
+header {
+  height: 900px;
+}
+
+.rsvp1 {
+  position: relative;
+  top: 10%;
+  text-align: center;
+  color: #eee;
+}
+
+.rsvp1 h1 {
+  font-size: 50px;
+  border-bottom: 2px solid #c99444;
+}
+
+.rsvp1 p {
+  font-size: 15px;
+  margin: 20px;
+  padding: 20px;
+}
+
+.rsvpoption {
+  background: none;
+  border: 2px solid #c99444;
+}
+
+
+
+button {
+  padding: 10px 30px;
+  border-radius: 20px;
+}
+
+.name {
+  width: 20%;
+  color: #c99444;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 658px) {
+.rsvp1 {
+  position: relative;
+  top: 25%;
+}
+
+}

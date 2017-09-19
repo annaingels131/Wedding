@@ -7,7 +7,7 @@
   <title>Wedding</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/weddingparty.css">
+  <link rel="stylesheet" href="css/about.css">
 </head>
 <body>
   <header>
@@ -22,33 +22,68 @@
         <li class="dropdown"><a href="aboutthewedding.html">About the Wedding</a></li>
           <ul class="dropdown-content">
             <li><a href="aboutthewedding.html#invite">When and Where</a></li>
-            <li><a href="aboutthewedding.html#travel">How to get there</a></li>
-            <li><a href="aboutthewedding.html#accomdations">Accomodations</a></li>
+            <li><a href="aboutthewedding.html#hotel">Accomodations</a></li>
           </ul>
-        <li class="rsvp"><a href="rsvp.index">RSVP</a></li>
+        <a href="rsvp.html"><li class="rsvp">RSVP</li></a>
       </ul>
     </nav>
     <div class="about">
       <h1>Please join us!</h1>
     </div>
   </header>
-  <main class="container-fluid">
-    <div class="row">
-      <div class="col-xs-12" id="invite">
-        <h1>Where: UC Botanical Garden</h1>
-        <h1>Address: 200 Centennial Drive, Berkeley CA</h1>
-        <h1>Date: 9/17/18</h1>
-        <h1>Time: 5:00pm</h1>
+  <main>
+    <div class="container-fluid">
+      <div class="row tree" id="invite">
+        <div class="col-xs-12 when">
+          <h1 class="fancy ">Where and When</h1>
+        </div>
+        <div class="col-xs-12 info">
+          <p>Where: UC Botanical Garden</p>
+          <p>Address: 200 Centennial Drive, Berkeley CA</p>
+          <p>Date: 9/17/18</p>
+          <p>Time: 5:00pm</p>
+        </div>
+      </div>
+      <div class="row hotel" id="hotel">
+        <div class="col-xs-12 when">
+          <h1 class="fancy">Hotel</h1>
+        </div>
+        <div class="col-sm-6">
+          <h1>Courtyard Richmond Berkeley</h1>
+          <p>3150 Garrity Way,</p>
+          <p>Richmond, CA 94806-1983</p>
+        </div>
+        <div class="col-sm-6 hotelimg">
+        </div>
       </div>
     </div>
-
   </main>
   <footer>
 
   </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script>
+  $(document).ready(function(){
+    // Add smooth scrolling to all links
+    $("a").on('click', function(event) {
+      if (this.hash !== "") {
+        event.preventDefault();
+        var hash = this.hash;
 
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top
+        }, 800, function(){
+
+          window.location.hash = hash;
+        });
+      } // End if
+    });
+  });
+  </script>
   <script type="text/javascript" src="js/script.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
 </script>
+
+
 </body>
 </html>
