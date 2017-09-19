@@ -1,4 +1,10 @@
+header {
+  height: 900px;
+}
+
 .rsvp1 {
+  position: relative;
+  top: 10%;
   text-align: center;
   color: #eee;
 }
@@ -9,12 +15,24 @@
 }
 
 .rsvp1 p {
-  font-size: 20px;
-  margin: 20px 80px;
+  font-size: 15px;
+  margin: 20px;
   padding: 20px;
 }
+
+.rsvpoption {
+  background: none;
+  border: 2px solid #c99444;
+}
+
+
 
 button {
   padding: 10px 30px;
   border-radius: 20px;
+}
+
+.name {
+  width: 20%;
+  color: #c99444;
 }
