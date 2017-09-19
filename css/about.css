@@ -1,45 +1,77 @@
-
-
 header {
-  background-image: url(../img/people.jpg);
+  background-image: url(../img/venue.jpg);
 }
 
-.met {
-  font-size: 80px;
+nav {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.dropdown-content a {
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: -11px;
+}
+
+
+.about{
   position: absolute;
   bottom: 0;
+  right: 0;
   font-family: 'Montserrat', sans-serif;
   font-weight: 900;
-  color: rgba(215, 215, 215, 0.7);
+  font-size: 80px;
+  color: rgba(0, 0, 0, 0.7);
 }
 
-.meet {
+.about h1 {
+  font-size: 80px;
+}
+
+/*-----------------Time-----------------*/
+.tree {
+  border-top: 3px solid #c99444;
+  border-bottom: 3px solid #c99444;
+  background-image: url(../img/tree.jpg);
+  width: 100%;
   height: 500px;
+  background-position: center;
+  background-size: cover;
+  color: #eee;
 }
 
-.meet h1 {
+.info {
+  margin: 20px;
+}
+
+.info p, .hotel p {
+  font-size: 30px;
+}
+
+.when h1 {
+  text-align: center;
+  font-size: 60px;
   border-bottom: 2px solid #c99444;
 }
 
-/*-------STORY------------------------*/
 
-.engage {
-  background-image: url(../img/bench.jpg);
-  height: 100%;
-  background-position: center;
-  background-size: cover;
+
+/*------------------hotel--------------*/
+
+.hotel {
+  text-align: center;
+  height: 500px;
 }
 
-.knee {
-  background-image: url(../img/knee.jpg);
+.hotelimg {
+  background-image: url(../img/hotel.jpg);
   height: 100%;
   background-position: center;
   background-size: cover;
+
 }
 
-.hands {
-  background-image: url(../img/hands.jpg);
-  height: 100%;
-  background-position: center;
-  background-size: cover;
+
+@media only screen and (max-width: 658px) {
+  .info p {
+    font-size: 25px;
+  }
 }

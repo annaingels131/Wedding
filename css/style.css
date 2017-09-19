@@ -107,7 +107,7 @@ nav a:hover {
     position: absolute;
     min-width: 100px;
     z-index: 1;
-    margin: -18px 87px;}
+    margin: -18px 100px;}
 
 .dropdown-content a {
     color: black;
@@ -148,4 +148,24 @@ footer {
   height: 100px;
   width: 100%;
   background-color: #c99444;
+}
+
+
+
+@media only screen and (max-width: 658px) {
+  .links{
+    float: left;
+  }
+
+  .dropdown-content {
+    visibility: hidden;
+  }
+}
+
+
+@media only screen and (max-width: 482px) {
+  .links{
+    font-size: 10px;
+  }
+
 }

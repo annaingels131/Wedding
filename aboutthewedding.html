@@ -7,9 +7,9 @@
   <title>Wedding</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/weddingparty.css">
+  <link rel="stylesheet" href="css/about.css">
 </head>
-<body> 
+<body>
   <header>
     <nav>
       <div class="logo">
@@ -24,7 +24,7 @@
             <li><a href="aboutthewedding.html#invite">When and Where</a></li>
             <li><a href="aboutthewedding.html#hotel">Accomodations</a></li>
           </ul>
-        <li class="rsvp"><a href="rsvp.html">RSVP</a></li>
+        <a href="rsvp.html"><li class="rsvp">RSVP</li></a>
       </ul>
     </nav>
     <div class="about">
@@ -61,10 +61,29 @@
   <footer>
 
   </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script>
+  $(document).ready(function(){
+    // Add smooth scrolling to all links
+    $("a").on('click', function(event) {
+      if (this.hash !== "") {
+        event.preventDefault();
+        var hash = this.hash;
 
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top
+        }, 800, function(){
+
+          window.location.hash = hash;
+        });
+      } // End if
+    });
+  });
+  </script>
   <script type="text/javascript" src="js/script.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
 </script>
+
 
 </body>
 </html>

@@ -36,3 +36,16 @@ button {
   width: 20%;
   color: #c99444;
 }
+
+
+
+
+
+
+@media only screen and (max-width: 658px) {
+.rsvp1 {
+  position: relative;
+  top: 25%;
+}
+
+}
